@@ -1,0 +1,130 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    background-color: rgba(231, 223, 188, 0.788);
+}
+.whole{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.first{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+}
+
+img{
+    width: 100%;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    margin: 20px 0 0 0;
+    display: block;
+}
+.div-1{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    height: 40vh;
+}
+.span-1-1{
+    margin: 1.5rem 0 0 1rem;
+    font-size: 1rem;
+    color: grey;
+}
+.span-1-2{
+    margin: 1rem 0 0 1.2rem;
+    font-size: 1.6rem;
+    font-weight: bolder;
+}
+.span-1-3{
+    margin: 1rem 0 0 1rem;
+    font-size: 1rem;
+    color: grey;
+}
+.span-1-4{
+    margin: 1rem 0 0 1rem;
+    font-size: 2.5rem;
+    color: rgba(24, 122, 98, 0.897);
+    font-weight: bolder;
+}
+.span-1-4-2{
+    font-size: 0.8rem;
+    color: grey;
+}
+button{
+    width: 80%;
+    background-color: rgba(24, 122, 98, 0.897);
+    height: 8vh;
+    border-radius: 10px;
+    font-size: 1.1rem;
+    font-weight: bolder;
+    color: white;
+    display: block;
+    margin: 20px auto;
+    border: none;
+}
+button:hover{
+    background-color: rgba(23, 68, 58, 0.897);
+    cursor: pointer;
+}
+.but{
+    padding: 5px;
+}
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+/*
+@media (max-height: 480px){
+    .div-1{
+        height: ;
+    }
+}
+@media (max-height: 600px){
+    .div-1{
+        height: 60vh;
+    }
+}
+*/
+@media (max-height: 800px){
+    .div-1{
+       height: 350px;
+    }
+}
+@media (min-width: 800px) {
+    .first{
+        width: 80%;
+        flex-direction: row;
+        display: flex;
+        margin-top: 20px;
+    }
+    .div-1{
+        border-top-right-radius: 20px;
+        border-bottom-left-radius: 0px;
+    }
+    .product-img{
+        background-image: url(/asset/images/image-product-desktop.jpg);
+    }
+    /*
+    img{
+        border-top-right-radius: 0;
+        border-bottom-left-radius: 20px;
+    }*/
+}
+/*
+check for iphone 4
+*/
